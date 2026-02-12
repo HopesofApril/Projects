@@ -1,6 +1,8 @@
 '''
 ✏️ Example
 ------
+from preprocessing import preprocessing_pipeline
+
 X_train, X_test, y_train, y_test = preprocessing_pipeline(
     path="file-name.csv",
     label_col="y-label-name",
